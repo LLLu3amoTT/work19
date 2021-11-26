@@ -1,0 +1,58 @@
+.container {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.uk-card-css {
+    width: 300px;
+    height: auto;
+    margin: 20px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.img-container {
+    display: flex;
+}
+
+.img {
+    background-image: url(./img/girl.png);
+    height: 64px;
+    width: 64px;
+}
+
+.container-icon {
+    display: flex;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.icon {
+    padding-left: 15px;
+}
+
+.icon-trash {
+    margin-left: 100px;
+}
+
+.icon-trash:hover {
+    font-size: 20px;
+}
+
+.icon:hover {
+    font-size: 20px;
+}
+
+.uk-card-css:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+.img:hover {
+    transform: scale(1.15);
+    transition: 0.2s;
+}
+
+a {
+    color: black;
+}
